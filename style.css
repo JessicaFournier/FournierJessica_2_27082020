@@ -109,32 +109,38 @@ button{
 }
 
 .filter{
-    display: grid;
-    grid-template-columns: 80px 170px  130px 170px 190px;
+    display: flex;
     margin: 20px 0;
     font-weight: bold;
     }
 
 .text-filter{
     padding-top: 12px;
+    margin-right: 20px;
 }
 
 .eco{
     display: flex;
     border: solid 2px #F2F2F2;
     border-radius: 50px;
+    width: 180px;
     padding: 10px 0;
     margin-right: 20px;
 }
-
-.fa-money-bill-wave{
+/*
+.round{
     background-color:#DEEBFF;
     border-radius: 50%;
     width: 25px;
     height: 25px;
+}
+*/
+/*
+.fa-money-bill-wave{
     color: #0065FC;
     padding-right: 5pxs;
 }
+*/
 
 .text-eco{
     padding-left: 5px;
@@ -144,11 +150,12 @@ button{
     display: flex;
     border: solid 2px #F2F2F2;
     border-radius: 50px;
-    width: auto;
+    width: 150px;
     padding: 10px 0;
     margin-right: 20px;
 }
 
+/*
 .fa-child{
     background-color:#DEEBFF;
     border-radius: 50%;
@@ -157,7 +164,7 @@ button{
     color: #0065FC;
     padding-right: 5pxs;
 }
-
+*/
 .text-family{
     padding-left: 5px;
 }
@@ -170,7 +177,7 @@ button{
     padding: 10px 0;
     margin-right: 20px;
 }
-
+/*
 .fa-heart{
     background-color:#DEEBFF;
     border-radius: 50%;
@@ -182,7 +189,7 @@ button{
     padding-top: 2px;
     text-align: center;
 }
-
+*/
 .text-romantic{
     padding-left: 5px;
 }
@@ -191,10 +198,10 @@ button{
     display: flex;
     border: solid 2px #F2F2F2;
     border-radius: 50px;
-    width: auto;
+    width: 210px;
     padding: 10px 0;
 }
-
+/*
 .fa-dog{
     background-color:#DEEBFF;
     border-radius: 50%;
@@ -203,7 +210,7 @@ button{
     color: #0065FC;
     padding-right: 5pxs;
 }
-
+*/
 .text-animals{
     padding-left: 5px;
 }
@@ -225,4 +232,114 @@ button{
 
 .text-information{
     padding-left: 5pxs;
+}
+
+.accomodations{
+    display: flex;
+    justify-content: space-around;
+}
+
+.accomodation-marseille{
+    border: solid 2px #F2F2F2;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    max-width: 65%;
+}
+
+.text-accomodation-marseille{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.offer{
+    border: solid 2px white;
+    border-radius: 15px;
+    background-color: white;
+    width:300px;
+    margin-top: 20px;
+}
+
+.photo{
+    text-align: center;
+}
+
+.photo img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.offer-title{
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.night-offer{
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.price{
+    font-weight: bold;
+}
+
+.affich{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+.popular{
+    border: solid 2px #F2F2F2;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    width: 25%;
+}
+
+.text-popular{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.popular-offer{
+    display: flex;
+    justify-content: space-around;
+    border: solid 2px white;
+    border-radius: 15px;
+    background-color: white;
+    margin-top: 20px;
+    width: 85%;
+    max-height: 30%;
+}
+
+.popular-photo img{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.popular-offer-title{
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.night-popular{
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
