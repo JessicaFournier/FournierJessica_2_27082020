@@ -11,6 +11,8 @@ header{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 50px;
+    margin-right: 20px;
+    margin-left: 30px;
 }
 
 footer{
@@ -31,8 +33,11 @@ img{
 .menu{
     display: flex;
     justify-content: flex-end;
+    margin-right: 30px;
+}
 
-
+.nav{
+    margin-left: 30px;
 }
 
 .menu_accomodation{
@@ -137,20 +142,18 @@ button{
     background-color: #0065FC;
     color: white;
 }
-/*
 .round{
     background-color:#DEEBFF;
     border-radius: 50%;
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
 }
-*/
-/*
+
 .fa-money-bill-wave{
     color: #0065FC;
-    padding-right: 5pxs;
+    padding-right: 10px;
+    padding-left: 10px;
 }
-*/
 
 .text-eco{
     padding-left: 5px;
@@ -170,16 +173,13 @@ button{
     color: white;
 }
 
-/*
 .fa-child{
-    background-color:#DEEBFF;
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
     color: #0065FC;
-    padding-right: 5pxs;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
 }
-*/
+
 .text-family{
     padding-left: 5px;
 }
@@ -312,6 +312,8 @@ a{
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     width: 99%;
+    height: 160px;
+    object-fit: cover;
 }
 
 .offer-title{
@@ -323,6 +325,39 @@ a{
     padding-left: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+.fa-star{
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+.blue1{
+    color: #0065FC;
+}
+
+.blue2{
+    color: #0065FC;
+}
+
+.blue3{
+    color: #0065FC;
+}
+
+.blue4{
+    color: #0065FC;
+}
+
+.blue5{
+    color: #0065FC;
+}
+
+.grey4{
+    color: #F2F2F2;
+}
+
+.grey5{
+    color: #F2F2F2;
 }
 
 .price{
@@ -341,7 +376,7 @@ a{
     border: solid 2px #F2F2F2;
     border-radius: 15px;
     background-color: #F2F2F2;
-    width: 25%;
+    width: 28%;
 }
 
 .text-popular{
@@ -352,6 +387,11 @@ a{
     font-weight: bold;
 }
 
+.fa-chart-line{
+    text-align: right;
+    padding-left: 20px;
+}
+
 .popular-offer{
     display: flex;
     justify-content: space-around;
@@ -359,13 +399,17 @@ a{
     border-radius: 15px;
     background-color: white;
     margin-top: 20px;
-    width: 85%;
-    max-height: 30%;
+    margin-bottom: 20px;
+    width: 90%;
+    max-height: 35%;
 }
 
 .popular-photo img{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    width: 110px;
+    height: 130px;
+    object-fit: cover;
 }
 
 .popular-offer-title{
@@ -382,6 +426,8 @@ a{
 
 .activities{
     margin-top: 40px;
+    height: 500px;
+    margin-bottom: 30px;
 }
 
 .text-activities{
@@ -396,10 +442,44 @@ a{
     justify-content: space-around;
 }
 
-.act-photo img{
+.act-photo1 img{
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.act-photo2 img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.act-photo3 img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+
+.act-photo4 img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.act-photo5 img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
 }
 
 .act-title{
@@ -424,6 +504,7 @@ a{
     justify-content: space-around;
     padding-top: 30px;
     padding-bottom: 30px;
+    margin-top: 30px;
 }
 
 .text-pied{
