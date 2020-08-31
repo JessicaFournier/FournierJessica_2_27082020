@@ -118,147 +118,82 @@ button{
     color: white;
 }
 
-.filter{
+.filters{
     display: flex;
     margin: 20px 0;
     font-weight: bold;
     }
 
-.text-filter{
+.text-filters{
     padding-top: 12px;
     margin-right: 20px;
 }
 
-.eco{
+.filter{
     display: flex;
     border: solid 2px #F2F2F2;
-    border-radius: 50px;
-    width: 180px;
+    border-radius: 999px;
     padding: 10px 0;
     margin-right: 20px;
+    position: relative;
 }
 
-.eco:hover{
+.filter:hover{
     background-color: #0065FC;
     color: white;
 }
+
 .round{
-    background-color:#DEEBFF;
+    background-color: #DEEBFF;
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
-}
-
-.fa-money-bill-wave{
+    width: 40px;
+    line-height: 40px;
+    position: absolute;
+    left: -4px;
+    top: 0;
+    text-align: center;
     color: #0065FC;
-    padding-right: 10px;
-    padding-left: 10px;
 }
 
-.text-eco{
-    padding-left: 5px;
+.text-filter{
+    padding-left: 45px;
 }
 
-.family{
-    display: flex;
-    border: solid 2px #F2F2F2;
-    border-radius: 50px;
+.eco{
     width: 150px;
-    padding: 10px 0;
-    margin-right: 20px;
 }
-
-.family:hover{
-    background-color: #0065FC;
-    color: white;
-}
-
-.fa-child{
-    color: #0065FC;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 5px;
-}
-
-.text-family{
-    padding-left: 5px;
+.family{
+    width: 120px;
 }
 
 .romantic{
-    display: flex;
-    border: solid 2px #F2F2F2;
-    border-radius: 50px;
     width: 150px;
-    padding: 10px 0;
-    margin-right: 20px;
-}
-
-.romantic:hover{
-    background-color: #0065FC;
-    color: white;
-}
-
-/*
-.fa-heart{
-    background-color:#DEEBFF;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    color: #0065FC;
-    padding-right: 5pxs;
-    padding-left: 10pxs;
-    padding-top: 2px;
-    text-align: center;
-}
-*/
-.text-romantic{
-    padding-left: 5px;
 }
 
 .animals{
-    display: flex;
-    border: solid 2px #F2F2F2;
-    border-radius: 50px;
-    width: 210px;
-    padding: 10px 0;
-}
-
-.animals:hover{
-    background-color: #0065FC;
-    color: white;
-}
-
-/*
-.fa-dog{
-    background-color:#DEEBFF;
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    color: #0065FC;
-    padding-right: 5pxs;
-}
-*/
-.text-animals{
-    padding-left: 5px;
+    width: 200px;
 }
 
 .information{
     display: flex;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
-.fa-info{
+.circle{
     color: #0065FC;
-    border: solid 2px black;
+    border: solid 2px #F2F2F2;
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    padding-left: 5px;
+    width: 25px;
+    line-height: 25px;
+    position: absolute;
+    text-align: center;
 }
+
 
 .text-information{
-    padding-left: 5pxs;
+    padding-left: 30px;
+    padding-top: 5px;
 }
 
 .accomodations{
@@ -270,23 +205,20 @@ button{
     border: solid 2px #F2F2F2;
     border-radius: 15px;
     background-color: #F2F2F2;
-    max-width: 65%;
+    max-width: 80%;
 }
 
 .text-accomodation-marseille{
     padding-top: 20px;
-    padding-bottom: 20px;
     padding-left: 20px;
     font-size: 24px;
     font-weight: bold;
 }
 
 .container{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     padding-left: 20px;
-    padding-right: 20px;
 }
 
 a{
@@ -300,8 +232,10 @@ a{
     border: solid 2px white;
     border-radius: 15px;
     background-color: white;
-    width:300px;
+    width:290px;
+    height: 210px;
     margin-top: 20px;
+    margin-right: 20px;
 }
 
 .photo{
@@ -311,9 +245,10 @@ a{
 .photo img{
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    width: 99%;
-    height: 160px;
+    width: 98%;
+    height: 120px;
     object-fit: cover;
+    padding-top: 2px;
 }
 
 .offer-title{
@@ -367,9 +302,13 @@ a{
 .affich{
     font-weight: bold;
     font-size: 18px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding-left: 20px;
+}
+
+.container-popular{
+    padding: 0 20px;
 }
 
 .popular{
@@ -381,7 +320,6 @@ a{
 
 .text-popular{
     padding-top: 20px;
-    padding-bottom: 20px;
     padding-left: 20px;
     font-size: 24px;
     font-weight: bold;
@@ -389,19 +327,18 @@ a{
 
 .fa-chart-line{
     text-align: right;
-    padding-left: 20px;
+    padding-left: 120px;
 }
 
 .popular-offer{
     display: flex;
-    justify-content: space-around;
     border: solid 2px white;
     border-radius: 15px;
     background-color: white;
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 90%;
-    max-height: 35%;
+    max-height: 250px;
+    position: relative;
 }
 
 .popular-photo img{
@@ -410,6 +347,8 @@ a{
     width: 110px;
     height: 130px;
     object-fit: cover;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 .popular-offer-title{
@@ -423,6 +362,11 @@ a{
     padding-bottom: 5px;
 }
 
+.eval-star{
+    position: absolute;
+    bottom: 5px;
+    padding-left: 5px;
+}
 
 .activities{
     margin-top: 40px;
