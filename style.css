@@ -16,6 +16,11 @@ body{
     font-family: Raleway, sans-serif;
 }
 
+.app{
+    width: 1450px;
+    margin: 0 auto;
+}
+
 header{
     display: grid;
     grid-template-columns: 1fr 0.8fr 0.15fr;

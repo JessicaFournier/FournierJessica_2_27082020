@@ -1,9 +1,21 @@
+@media screen and (max-width: 1025px)
+{
+    .app{
+        width: 100%;
+    }
+}
+
+
 @media screen and (max-width: 768px)
 {
     html{
         font-size: 100%;
     }
     
+    .app{
+        width: 100%;
+    }
+
     header{
         display: flex;
         flex-wrap: wrap;
@@ -294,6 +306,10 @@
 {
     html{
         font-size: 100%;
+    }
+
+    .app{
+        width: 100%;
     }
 
     header{
