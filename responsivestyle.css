@@ -341,16 +341,16 @@
         margin-bottom: 20px;
         width: 100%;
     }
+    
+    .filter{
+        margin-bottom: 20px;
+    }
 
     .round{
         width: 50px;
         line-height: 50px;
         left: -4px;
         top: 0;
-    }
-    
-    .filter{
-        margin-bottom: 20px;
     }
 
     .text-filter{
