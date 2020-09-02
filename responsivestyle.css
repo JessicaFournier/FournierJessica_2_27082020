@@ -274,7 +274,8 @@
     .act-title{
         width: 100%;
         font-size: 1.1rem;
-        padding: 10px 0 10px 10px;
+        padding: 10px 0 10px 00px;
+        text-indent: 10px;
     }
 
     .pied{
@@ -362,7 +363,7 @@
     }
     
     .animals{
-        width: 270px;
+        width: 290px;
     }
     
     .circle{
@@ -491,6 +492,9 @@
 
     .act-title{
         font-size: 1.6rem;
+        padding-left: 0;
+        padding-right: 0%;
+        text-indent: 10px;
     }
     
     .pied{
