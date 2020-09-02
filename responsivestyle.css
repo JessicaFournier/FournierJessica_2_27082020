@@ -181,13 +181,13 @@
     }
 
     .popular-offer-title{
-        font-size: 1.2rem;
+        font-size: 1rem;
         padding-left: 20px;
         margin-top: 10px;
     }
     
     .night-popular{
-        font-size: 1.2rem;
+        font-size: 1rem;
         padding-left: 20px;
     }
 
@@ -363,7 +363,7 @@
     }
     
     .animals{
-        width: 290px;
+        width: 310px;
     }
     
     .circle{
