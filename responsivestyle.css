@@ -349,6 +349,10 @@
         top: 0;
     }
     
+    .filter{
+        margin-bottom: 20px;
+    }
+
     .text-filter{
         padding-left: 55px;
     }
