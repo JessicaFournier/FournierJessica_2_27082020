@@ -127,6 +127,10 @@
         padding-left: 5px;
     }
 
+    .text-filter{
+        font-size: 1.1rem;
+    }
+
     .round{
         width: 40px;
         line-height: 40px;
@@ -134,19 +138,19 @@
     }
 
     .eco{
-        width: 160px;
+        width: 170px;
     }
 
     .family{
-        width: 120px;
+        width: 130px;
     }
 
     .romantic{
-        width: 160px;
+        width: 170px;
     }
 
     .animals{
-        width: 210px;
+        width: 220px;
     }
 
     .information{
