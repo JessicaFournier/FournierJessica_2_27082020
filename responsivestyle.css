@@ -104,6 +104,7 @@
         margin: 0;
         position: relative;
         left: -15px;
+        height: 100%;
     }
 
     .text-button{
