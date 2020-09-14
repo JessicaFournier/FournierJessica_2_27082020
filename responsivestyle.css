@@ -341,6 +341,7 @@
         font-size: 1.5rem;
         border-radius: 0;
         box-shadow: none;
+        -webkit-appearance: none;
     }
         
     .fa-map-marker-alt{
