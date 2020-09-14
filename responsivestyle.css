@@ -93,6 +93,7 @@
         border-radius: 0;
         box-shadow: none;
         -webkit-appearance: none;
+        margin: 0;
     }
 
     button{
@@ -101,6 +102,8 @@
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
         margin-right: 20px;
+        position: relative;
+        left: -15px;
     }
 
     .text-button{
