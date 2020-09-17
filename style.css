@@ -1,27 +1,27 @@
-@font-face{
+@font-face {
     font-family: "Raleway";
     src: url("Raleway-regular.ttf");
 }
 
-@font-face{
+@font-face {
     font-family: "Raleway-bold";
     src: url("Raleway-Bold.ttf");
 }
 
-html{
+html {
     font-size: 100%;
 }
 
-body{
+body {
     font-family: Raleway, sans-serif;
 }
 
-.app{
+.app {
     width: 1450px;
     margin: 0 auto;
 }
 
-header{
+header {
     display: grid;
     grid-template-columns: 1fr 0.8fr 0.15fr;
     margin-bottom: 50px;
@@ -29,49 +29,49 @@ header{
     margin-left: 30px;
 }
 
-footer{
+footer {
     background-color: #F2F2F2;
     margin-top: 40px;
 }
 
-.logo_head{
+.logo-head {
     display: block;
     width: 200px;
 }
 
-img{
+img {
     width: 150px;
     height: auto;
 }
 
-.menu{
+.menu {
     display: flex;
     justify-content: flex-end;
     text-align: right;
 }
 
-.nav{
+.nav {
     margin-left: 30px;
 }
 
-.menu_accomodation{
+.menu-accomodation {
     text-align: center;
     padding-top: 30px;
     margin-left: 50px;
 }
 
-#active{
+#active {
     color: #0065FC;
     border-top: #0065FC solid 2px;
 }
 
-.menu_activities{
+.menu-activities {
     text-align: center;
     padding-top: 30px;
     margin-left: 50px;
 }
 
-.menu_inscription{
+.menu-inscription {
     text-align: center;
     padding-top: 30px;
     margin-left: 50px;
@@ -80,18 +80,18 @@ img{
     font-weight: bold;
 }
 
-.title{
+.title {
     padding-bottom: 20px;
     font-weight: bold;
     font-size: 1.8rem;
 }
 
-.text_title{
+.text-title {
     font-size: 1.3rem;
     padding-bottom: 20px;
 }
 
-.search{
+.search {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 300px;
@@ -99,7 +99,7 @@ img{
     padding-left: 5px;
 }
 
-input{
+input {
     padding-top: 0;
     padding-bottom: 0;
     padding-right: 0;
@@ -113,11 +113,11 @@ input{
     font-weight: bold;
 }
 
-::placeholder{
+::placeholder {
     color: black;
 }
 
-.fa-map-marker-alt{
+.fa-map-marker-alt {
     background-color: #F2F2F2;
     text-align: center;
     vertical-align: middle;
@@ -129,11 +129,11 @@ input{
     border-bottom-left-radius: 10px;
 }
 
-button{
+button {
     background-color: #0065FC;
-    border-right:  2px;
-    border-top:  2px;
-    border-bottom:  2px;
+    border-right: 2px;
+    border-top: 2px;
+    border-bottom: 2px;
     border-left: none;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -142,24 +142,24 @@ button{
     padding: 0 10px;
 }
 
-.fas.fa-search{
+.fas.fa-search {
     display: none;
 }
 
-.filters{
+.filters {
     display: flex;
     margin: 20px 0;
     font-family: Raleway-bold;
     font-weight: bold;
     font-size: 1.1rem;
-    }
+}
 
-.text-filters{
+.text-filters {
     padding-top: 12px;
     margin-right: 20px;
 }
 
-.filter{
+.filter {
     display: flex;
     border: solid 2px #F2F2F2;
     border-radius: 999px;
@@ -168,12 +168,12 @@ button{
     position: relative;
 }
 
-.filter:hover{
+.filter:hover {
     background-color: #0065FC;
     color: white;
 }
 
-.round{
+.round {
     background-color: #DEEBFF;
     border-radius: 50%;
     width: 40px;
@@ -185,32 +185,33 @@ button{
     color: #0065FC;
 }
 
-.text-filter{
+.text-filter {
     padding-left: 45px;
 }
 
-.eco{
+.eco {
     width: 160px;
 }
-.family{
+
+.family {
     width: 130px;
 }
 
-.romantic{
+.romantic {
     width: 160px;
 }
 
-.animals{
+.animals {
     width: 210px;
 }
 
-.information{
+.information {
     display: flex;
     margin-top: 10px;
     margin-bottom: 30px;
 }
 
-.circle{
+.circle {
     color: #0065FC;
     border: solid 2px #F2F2F2;
     border-radius: 50%;
@@ -221,18 +222,18 @@ button{
 }
 
 
-.text-information{
+.text-information {
     padding-left: 40px;
     padding-top: 5px;
 }
 
-.accomodations{
+.accomodations {
     display: flex;
     justify-content: space-around;
     width: 100%;
 }
 
-.accomodation-marseille{
+.accomodation-marseille {
     border: solid 2px #F2F2F2;
     border-radius: 15px;
     background-color: #F2F2F2;
@@ -240,7 +241,7 @@ button{
     order: 1;
 }
 
-.text-accomodation-marseille{
+.text-accomodation-marseille {
     padding-top: 20px;
     padding-left: 20px;
     font-size: 1.6rem;
@@ -248,34 +249,34 @@ button{
     font-weight: bold;
 }
 
-.container{
+.container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding-left: 20px;
 }
 
-a{
+a {
     display: block;
     cursor: pointer;
     color: black;
     text-decoration: none;
 }
 
-.offer{
+.offer {
     border: solid 2px white;
     border-radius: 15px;
     background-color: white;
-    width:290px;
+    width: 290px;
     height: 210px;
     margin-top: 20px;
     margin-right: 20px;
 }
 
-.photo{
+.photo {
     text-align: center;
 }
 
-.photo img{
+.photo img {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     width: 98%;
@@ -284,60 +285,60 @@ a{
     padding-top: 2px;
 }
 
-.offer-title{
+.offer-title {
     font-weight: bold;
     padding-left: 15px;
 }
 
-.night-offer{
+.night-offer {
     padding-left: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
-.eval-star-accomodation{
+.eval-star-accomodation {
     padding-left: 10px;
 }
 
-.fa-star{
+.fa-star {
     padding-left: 5px;
     padding-bottom: 5px;
 }
 
-.blue1{
+.blue1 {
     color: #0065FC;
 }
 
-.blue2{
+.blue2 {
     color: #0065FC;
 }
 
-.blue3{
+.blue3 {
     color: #0065FC;
 }
 
-.blue4{
+.blue4 {
     color: #0065FC;
 }
 
-.blue5{
+.blue5 {
     color: #0065FC;
 }
 
-.grey4{
+.grey4 {
     color: #F2F2F2;
 }
 
-.grey5{
+.grey5 {
     color: #F2F2F2;
 }
 
-.price{
+.price {
     font-family: Raleway-bold;
     font-weight: bold;
 }
 
-.affich{
+.affich {
     font-family: Raleway-bold;
     font-weight: bold;
     font-size: 1.2rem;
@@ -346,11 +347,11 @@ a{
     padding-left: 20px;
 }
 
-.container-popular{
+.container-popular {
     padding: 0 20px;
 }
 
-.popular{
+.popular {
     border: solid 2px #F2F2F2;
     border-radius: 15px;
     background-color: #F2F2F2;
@@ -358,7 +359,7 @@ a{
     order: 2;
 }
 
-.text-popular{
+.text-popular {
     padding-top: 20px;
     padding-left: 20px;
     font-size: 1.6rem;
@@ -367,14 +368,14 @@ a{
     position: relative;
 }
 
-.fa-chart-line{
+.fa-chart-line {
     text-align: right;
     padding-left: 120px;
     position: absolute;
     right: 20px;
 }
 
-.popular-offer{
+.popular-offer {
     display: flex;
     border: solid 2px white;
     border-radius: 15px;
@@ -385,7 +386,7 @@ a{
     position: relative;
 }
 
-.popular-photo img{
+.popular-photo img {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     width: 110px;
@@ -395,7 +396,7 @@ a{
     padding-bottom: 2px;
 }
 
-.popular-offer-title{
+.popular-offer-title {
     font-family: Raleway-bold;
     font-weight: bold;
     padding-left: 30px;
@@ -403,25 +404,25 @@ a{
     padding-right: 10px;
 }
 
-.night-popular{
+.night-popular {
     padding-left: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
-.eval-star{
+.eval-star {
     position: absolute;
     bottom: 5px;
     padding-left: 30px;
 }
 
-.activities{
+.activities {
     margin-top: 40px;
     height: 500px;
     margin-bottom: 30px;
 }
 
-.text-activities{
+.text-activities {
     padding-bottom: 30px;
     padding-left: 40px;
     font-size: 1.6rem;
@@ -429,12 +430,12 @@ a{
     font-weight: bold;
 }
 
-.act-offer{
+.act-offer {
     display: flex;
     justify-content: space-around;
 }
 
-.act-photo1 img{
+.act-photo1 img {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     width: 100%;
@@ -442,7 +443,7 @@ a{
     object-fit: cover;
 }
 
-.act-photo2 img{
+.act-photo2 img {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     width: 100%;
@@ -450,7 +451,7 @@ a{
     object-fit: cover;
 }
 
-.act-photo3 img{
+.act-photo3 img {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     width: 100%;
@@ -458,7 +459,7 @@ a{
     object-fit: cover;
 }
 
-.act-photo4 img{
+.act-photo4 img {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     width: 100%;
@@ -466,7 +467,7 @@ a{
     object-fit: cover;
 }
 
-.act-photo5 img{
+.act-photo5 img {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     width: 100%;
@@ -474,7 +475,7 @@ a{
     object-fit: cover;
 }
 
-.act-title{
+.act-title {
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border: solid 2px white;
@@ -485,15 +486,15 @@ a{
     padding: 10px 10px;
 }
 
-.act-details{
+.act-details {
     width: 20%;
 }
 
-.act-sub-details1{
+.act-sub-details1 {
     padding-bottom: 30px;
 }
 
-.pied{
+.pied {
     display: flex;
     justify-content: space-around;
     padding-top: 30px;
@@ -501,12 +502,12 @@ a{
     margin-top: 30px;
 }
 
-.text-pied{
+.text-pied {
     padding-bottom: 12px;
     font-family: Raleway-bold;
     font-weight: bold;
 }
 
-.a-pied{
+.a-pied {
     padding-bottom: 7px;
 }

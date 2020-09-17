@@ -26,7 +26,7 @@
         width: 100%;
     }
     
-    .logo_head{
+    .logo-head{
         position: relative;
     }
 
@@ -35,7 +35,7 @@
         height: auto;
     }
 
-    .menu_inscription{
+    .menu-inscription{
         position: absolute;
         right: 30px;
         font-size: 1.2rem;
@@ -44,20 +44,20 @@
         text-align: right;
     }
 
-    .menu_item{
+    .menu-item{
         width: 50%;
         padding-right: 10px;
         padding-left: 10px;
         font-size: 1.2rem;
     }
 
-    .menu_accomodation{
+    .menu-accomodation{
         color: #0065FC;
         border-top: none;
         margin-left: 0;
     }
 
-    .menu_activities{
+    .menu-activities{
         border-bottom: solid 2px #F2F2F2;
         margin-left: 0;
     }
@@ -72,7 +72,7 @@
         font-size: 1.4rem;
     }
     
-    .text_title{
+    .text-title{
         font-size: 1.2rem;
     }
 
